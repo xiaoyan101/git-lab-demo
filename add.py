@@ -1,6 +1,11 @@
 def add(a, b):
     """返回两个数的和。"""
     return a + b
+
+def mul(a, b):
+    """返回两个数的积。"""
+    return a * b
+
 if __name__ == "__main__":
     x = float(input("第一个数："))
     y = float(input("第二个数："))
