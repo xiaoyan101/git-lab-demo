@@ -1,4 +1,5 @@
 def add(a, b):
+    """返回两个数的和。"""
     return a + b
 if __name__ == "__main__":
     x = float(input("第一个数："))
